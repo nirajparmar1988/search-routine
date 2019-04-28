@@ -19,14 +19,14 @@
 example :
 ----
 
-###Using OR operator:
+### Using OR operator:
     python search_routine.py -o or "general population generally"
     and
     python search_routine.py "general population generally"
 
     output:6,8
 
-###Using AND operator:
+### Using AND operator:
     python search_routine.py   'Care Quality Commission admission' -o and
 
     output:1
